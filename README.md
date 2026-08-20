@@ -14,16 +14,8 @@ A full write-up of the methodology, results, and discussion is available in [`pa
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Methodology](#methodology)
 - [Results](#results)
-  - [Model Performance Across Imbalance Strategies](#model-performance-across-imbalance-strategies)
-  - [Confusion Matrices](#confusion-matrices)
-  - [Error Analysis — Missed Failures](#error-analysis--missed-failures)
 - [SHAP Interpretability](#shap-interpretability)
-  - [Global Feature Importance](#global-feature-importance)
-  - [Local Explanations](#local-explanations)
-  - [Class Weight vs. SMOTE — Does Imbalance Handling Change Explanations?](#class-weight-vs-smote--does-imbalance-handling-change-explanations)
 - [Interactive App](#interactive-app)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Key Findings](#key-findings)
 - [Limitations](#limitations)
 - [Citation](#citation)
@@ -165,30 +157,6 @@ A Streamlit app (`app.py`) wraps the final **XGBoost + SMOTE** model for live, i
 ![App justification page](images/app_justification.png)
 
 > ⚠️ **Limitation banner (as shown in the app):** AI4I 2020 is a synthetic dataset. Predictions here are research outputs for demonstration purposes only, not guaranteed maintenance decisions for a real machine.
-
----
-
-## Installation
-
-```bash
-git clone <repo-url>
-cd <repo-folder>
-pip install -r requirements.txt
-```
-
-## Usage
-
-**Run the analysis notebook:**
-
-```bash
-jupyter notebook predictive_maintainance.ipynb
-```
-
-**Launch the interactive app:**
-
-```bash
-streamlit run app.py
-```
 
 ---
 
