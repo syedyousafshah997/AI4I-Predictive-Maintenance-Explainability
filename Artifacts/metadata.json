@@ -1,0 +1,40 @@
+{
+  "final_model_name": "XGBoost",
+  "final_strategy": "SMOTE",
+  "feature_cols_raw": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "numeric_features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "categorical_features": [
+    "Type"
+  ],
+  "feature_names_out": [
+    "Air temperature (K)",
+    "Process temperature (K)",
+    "Rotational speed (rpm)",
+    "Torque (Nm)",
+    "Tool wear (min)",
+    "Type_L",
+    "Type_M"
+  ],
+  "random_state": 42,
+  "final_metrics": {
+    "Accuracy": 0.9835,
+    "Precision": 0.7397260273972602,
+    "Recall": 0.7941176470588235,
+    "F1": 0.7659574468085106,
+    "ROC-AUC": 0.9702457069784436,
+    "PR-AUC": 0.8362861454600173
+  }
+}
