@@ -184,7 +184,7 @@ Full discussion of limitations and future work is in [`paper/paper.pdf`](paper/p
 If you use this work, please cite:
 
 ```
-S. Y. Shah, "Investigating the Impact of Class Imbalance Handling on Machine
+S. Yousaf Shah, "Investigating the Impact of Class Imbalance Handling on Machine
 Learning Performance and SHAP-Based Interpretability for Predictive Maintenance."
 ```
 
