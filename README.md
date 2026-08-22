@@ -2,7 +2,7 @@
 
 Investigating how class-imbalance handling strategies (No Handling, Class Weighting, SMOTE) affect both **predictive performance** and **SHAP-based interpretability** for machine-failure prediction, using Random Forest, SVM, and XGBoost classifiers on the AI4I 2020 Predictive Maintenance dataset.
 
-A full write-up of the methodology, results, and discussion is available in [`paper/paper.pdf`](paper/paper.pdf).
+A full write-up of the methodology, results, and discussion is available in [`paper/paper.pdf`](Paper/paper.pdf).
 
 ---
 
